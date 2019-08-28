@@ -13,7 +13,6 @@ export class FormComponent implements OnInit {
 
   constructor(private s:ServicoService) 
   { 
-    
   }
 
   ngOnInit() 
@@ -23,6 +22,11 @@ export class FormComponent implements OnInit {
   salvar():void 
   {
     this.s.add(this.cliente);
+  }
+  
+  limpar():void
+  {
+    this.cliente = new Cliente();
   }
 
 }
