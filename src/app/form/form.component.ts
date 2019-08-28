@@ -22,6 +22,7 @@ export class FormComponent implements OnInit {
   salvar():void 
   {
     this.s.add(this.cliente);
+    this.limpar();
   }
   
   limpar():void
