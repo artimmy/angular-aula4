@@ -7,6 +7,8 @@ export class ServicoService
 
   private lista:Cliente[]=[];
 
+
+  
   constructor() 
   { 
   }
@@ -15,5 +17,7 @@ export class ServicoService
   {
     this.lista.push(c);
   }
+
+  
 
 }
