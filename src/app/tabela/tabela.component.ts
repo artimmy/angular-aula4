@@ -12,7 +12,9 @@ export class TabelaComponent implements OnInit {
   { 
   }
 
-  ngOnInit() {
+  ngOnInit() 
+  {
+    
   }
 
 }
