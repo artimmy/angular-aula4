@@ -7,7 +7,8 @@ import { ServicoService } from '../servico.service';
   templateUrl: './form.component.html',
   styleUrls: ['./form.component.css']
 })
-export class FormComponent implements OnInit {
+export class FormComponent implements OnInit 
+{
 
   private cliente: Cliente = new Cliente();
 
